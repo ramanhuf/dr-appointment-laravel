@@ -41,16 +41,7 @@ The project has been refactored to follow the Laravel framework structure. The r
 
 ### Installation
 
-1. **Download and Install XAMPP:**
-
-   - Download XAMPP from the [official website](https://www.apachefriends.org/index.html).
-   - Install XAMPP and start the Apache and MySQL modules from the XAMPP Control Panel.
-  
-2. **Create Database**
-   - Open phpMyAdmin by navigating to `http://localhost/phpmyadmin/`.
-   - Create new databases named `damsms`.
-
-2. **Clone the Repository:**
+1. **Clone the Repository:**
 
    - Clone this repository to your local machine or download the ZIP file and extract it.
 
@@ -58,19 +49,19 @@ The project has been refactored to follow the Laravel framework structure. The r
      git clone git@github.com:khalidalghifari/Kelompok_2_4_Laravel.git
      ```
    
-3. **Install Composer Dependencies:**
+2. **Install Composer Dependencies:**
 
    ```bash
    composer install
    ```
 
-4. **Generate Application Key:**
+3. **Generate Application Key:**
  
    ```bash
    php artisan key:generate
    ```
 
-5. **Run Migrations**
+4. **Run Migrations**
    
    ```bash
    php artisan migrate --seed
@@ -100,26 +91,3 @@ The project follows the Laravel framework structure with the following directori
 - `database/migrations`: Contains all the migration files for creating database schemas.
 - `routes`: Contains all the application routes.
 - `public`: Contains publicly accessible files such as index.php and assets (CSS, JS, images).
-
-## Contributors
-
-Kelompok 2:
-1. Andika Pebriansyah (2208107010058)
-2. Rizky Yusmansyah (2208107010024)
-3. M. Agradika Ridhal Eljatin (2208107010020)
-4. Muhammad Ridho (2208107010064)
-5. Nisa Rianti (2208107010018)
-6. Tiara Agustin (2208107010004)
-   
-Kelompok 4:
-1. Muhammad Raza Adzani (2208107010066)
-2. Nuri Masyithah (2208107010006)
-3. Fazhira Rizky Harmayani (2208107010012)
-4. Muhammad Khalid Al Ghifari (2208107010044)
-5. Maulana Fikri (2208107010042)
-6. Muhammad Aufa Zaikra (2208107010070)
-
-## Acknowledgements
-
-- Original projects by [PHPGurukul](https://phpgurukul.com/)
-- Laravel framework documentation and resources.
