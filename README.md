@@ -1,6 +1,6 @@
 # Doctor Appointment Management System
-
-This project is a Doctor Appointment Management System refactored to use the Laravel framework. The original project was developed by [PHPGurukul](https://phpgurukul.com/) and can be found [here](https://phpgurukul.com/doctor-appointment-management-system-using-php-and-mysql/).
+![alt text](/public/readme-image2.png)
+A modern Doctor Appointment Management System built with Laravel, designed to streamline clinic workflows and improve patient experience.
 
 ## Project Description
 
