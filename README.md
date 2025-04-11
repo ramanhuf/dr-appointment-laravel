@@ -46,7 +46,8 @@ The project has been refactored to follow the Laravel framework structure. The r
    - Clone this repository to your local machine or download the ZIP file and extract it.
 
      ```bash
-     git clone git@github.com:khalidalghifari/Kelompok_2_4_Laravel.git
+     git clone https://github.com/ramanhuf/dr-appointment-laravel.git
+     cd dr-appointment-laravel
      ```
    
 2. **Install Composer Dependencies:**
